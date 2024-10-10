@@ -2,16 +2,16 @@
 const isOpen = ref(false);
 
 const streets = [
-  { id: 1, label: 'Wade Cooper' },
-  { id: 2, label: 'Arlene Mccoy' },
-  { id: 3, label: 'Devon Webb' },
-  { id: 4, label: 'Tom Cook' },
-  { id: 5, label: 'Tanya Fox' },
-  { id: 6, label: 'Hellen Schmidt' },
-  { id: 7, label: 'Caroline Schultz' },
-  { id: 8, label: 'Mason Heaney' },
-  { id: 9, label: 'Claudie Smitham' },
-  { id: 10, label: 'Emil Schaefer' },
+  { id: 1, label: 'الفرع ١' },
+  { id: 2, label: 'الفرع ٢' },
+  { id: 3, label: 'الفرع ٣' },
+  { id: 4, label: 'الفرع ٤' },
+  { id: 5, label: 'الفرع ٥' },
+  { id: 6, label: 'الفرع ٦' },
+  { id: 7, label: 'الفرع ٧' },
+  { id: 8, label: 'الفرع ٨' },
+  { id: 9, label: 'الفرع ٩' },
+  { id: 10, label: 'الفرع ١٠' },
 ];
 const selected = ref(streets[0]);
 </script>

@@ -3,38 +3,38 @@ const isOpen = ref(false);
 const items = [
   {
     id: 1,
-    label: 'City name',
+    label: 'اسم المدينة',
     defaultOpen: true,
     slot: 'city-1',
   },
   {
     id: 2,
-    label: 'City name',
+    label: 'اسم المدينة',
     slot: 'city-2',
   },
   {
     id: 3,
-    label: 'City name',
+    label: 'اسم المدينة',
     slot: 'city-3',
   },
   {
     id: 4,
-    label: 'City name',
+    label: 'اسم المدينة',
     slot: 'city-4',
   },
 ];
 
 const streets = [
-  { id: 1, label: 'Wade Cooper' },
-  { id: 2, label: 'Arlene Mccoy' },
-  { id: 3, label: 'Devon Webb' },
-  { id: 4, label: 'Tom Cook' },
-  { id: 5, label: 'Tanya Fox' },
-  { id: 6, label: 'Hellen Schmidt' },
-  { id: 7, label: 'Caroline Schultz' },
-  { id: 8, label: 'Mason Heaney' },
-  { id: 9, label: 'Claudie Smitham' },
-  { id: 10, label: 'Emil Schaefer' },
+  { id: 1, label: 'الحي ١' },
+  { id: 2, label: 'الحي ٢' },
+  { id: 3, label: 'الحي ٣' },
+  { id: 4, label: 'الحي ٤' },
+  { id: 5, label: 'الحي ٥' },
+  { id: 6, label: 'الحي ٦' },
+  { id: 7, label: 'الحي ٧' },
+  { id: 8, label: 'الحي ٨' },
+  { id: 9, label: 'الحي ٩' },
+  { id: 10, label: 'الحي ١٠' },
 ];
 const selected = ref(streets[0]);
 </script>
